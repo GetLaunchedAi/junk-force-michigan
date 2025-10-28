@@ -29,7 +29,7 @@ eleventyNavigation:
   </video>
   <div class="cs-overlay"></div>
   <div class="cs-container">
-    <div class="cs-flex-group">
+    <div class="cs-flex-group fx fade-in">
       <span class="cs-topper">Same-Day. Affordable. Family-Owned.</span>
       <h1 class="cs-title">
         Junk Removal You Can Count On
@@ -62,8 +62,8 @@ eleventyNavigation:
 <!--                  Services                    -->
 <!-- ============================================ -->
 
-<section id="services" class="services">
-  <div class="card">
+<section id="services" class="services fx slide-top">
+  <div class="card fx slide-top staggered-m" style="--i:1">
     <picture>
       <img
         aria-hidden="true"
@@ -79,7 +79,7 @@ eleventyNavigation:
       Quick and affordable junk removal for homes and businesses — from single items to full cleanouts.
     </p>
   </div>
-  <div class="card">
+  <div class="card fx slide-top staggered-m" style="--i:2">
     <picture>
       <img
         aria-hidden="true"
@@ -95,7 +95,7 @@ eleventyNavigation:
       We safely remove and dispose of old furniture, couches, mattresses, and more — so you don’t have to lift a thing.
     </p>
   </div>
-  <div class="card">
+  <div class="card fx slide-top staggered-m" style="--i:3">
     <picture>
       <img
         aria-hidden="true"
@@ -119,11 +119,11 @@ eleventyNavigation:
 
 <section id="sbs">
   <div class="cs-container">
-    <div class="cs-left">
+    <div class="cs-left fx slide-left">
       {% image './src/images/about_img_0.jpg', 'junk hauling service', 'cs-picture
       cs-picture1', 'lazy'%}
     </div>
-    <div class="cs-right">
+    <div class="cs-right fx slide-right">
       <span class="cs-topper">About Us</span>
       <h2 class="cs-title">About Junk Force Michigan</h2>
       <p class="cs-text">
@@ -160,11 +160,11 @@ eleventyNavigation:
 
 <section id="sbs-r">
   <div class="cs-container">
-    <div class="cs-left">
+    <div class="cs-left fx slide-left">
       {% image './src/images/featured_img_0.png', 'junk hauling in Michigan',
       'cs-picture cs-picture1', 'lazy'%}
     </div>
-    <div class="cs-right">
+    <div class="cs-right fx slide-right">
       <span class="cs-topper">Full-Service Junk Removal</span>
       <h2 class="cs-title">Why Choose Junk Force Michigan</h2>
       <p class="cs-text">
@@ -187,7 +187,7 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="reviews">
-  <div class="cs-container">
+  <div class="cs-container fx slide-bottom staggered" style="--i:0">
     <span class="cs-topper">Our Reviews</span>
     <h2 class="cs-title">What Our Customers Say</h2>
     <p class="cs-text">
@@ -195,7 +195,7 @@ eleventyNavigation:
       Customers love our fast service, fair pricing, and family touch. Here’s what they have to say.
     </p>
     <ul class="cs-card-group">
-      <li class="cs-item">
+      <li class="cs-item fx slide-bottom staggered" style="--i:1">
         <p class="cs-item-p">
           Junk Force Michigan was amazing! They cleared out our garage in under an hour and even swept up after. Highly recommend!
         </p>
@@ -214,7 +214,7 @@ eleventyNavigation:
           height="16"
         />
       </li>
-      <li class="cs-item">
+      <li class="cs-item fx slide-bottom staggered" style="--i:2">
         <p class="cs-item-p">
           Mike and his team helped with an estate cleanout and made the process so much easier. Professional, respectful, and very affordable.
         </p>
